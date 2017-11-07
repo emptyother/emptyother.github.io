@@ -1,1 +1,8 @@
-# Sample post
+---
+layout: post
+title: Sample post title
+---
+
+# Sample post h1
+
+Sample text
