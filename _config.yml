@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title: Only Human
 tagline: Tagline
+permalink: pretty
 author:
   name: Tom A. Vibeto
   email: post@onlyhuman.dk
