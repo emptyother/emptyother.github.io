@@ -2,6 +2,7 @@
 title: Only Human
 ---
 
-# Placeholder title
-
-Placeholder text.
+Posts: 
+{% for post in site.posts %}
+* [{{ post.title }}]({{ post.url }})
+{% endfor %}
