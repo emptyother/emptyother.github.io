@@ -1,21 +1,22 @@
 ---
-title: Only Human
+title: Tom André Vibeto
 ---
 
-Posts: 
-{% for post in site.posts %}
-* [{{ post.title }}]({{ post.url }})
-{% endfor %}
+## Hi, I'm Tom!
 
-{% for post in site.posts %}
+* Developer
+	- C#/.NET.
+	- Typescript/Javascript.
+* Classic nerd
+	- Book-nerd and avid reader of everything.
+	- D&D gamer.
+* Norwegian
+	- From Valle in [Bamble](https://en.wikipedia.org/wiki/Bamble), [Telemark](https://en.wikipedia.org/wiki/Telemark).
+	- Currently living in Oslo.
 
-## [{{ post.title }}]({{ post.url }})
+## Links
 
-{{ post.excerpt }}
-
-{% endfor %}
-
-Categories:
-{% for post in site.categories[page.category] %}
-      * [{{ post.title }}]({{ post.url | absolute_url }})
-{% endfor %}
+* [Personal page](https://www.onlyhuman.dk)
+* [GitHub](https://github.com/emptyother)
+* [Dev.to](https//dev.to/emptyother)
+* [Twitter](https://twitter.com/)
