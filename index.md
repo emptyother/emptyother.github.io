@@ -1,5 +1,4 @@
 ---
-layout: front
 title: Tom André Vibeto
 ---
 
