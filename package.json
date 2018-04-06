@@ -1,0 +1,23 @@
+{
+	"name": "emptyother.github.io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "lessc ./css/default.less ./css/default.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/emptyother/emptyother.github.io.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/emptyother/emptyother.github.io/issues"
+	},
+	"homepage": "https://github.com/emptyother/emptyother.github.io#readme",
+	"dependencies": {
+		"less": "^3.0.1"
+	}
+}

@@ -1,0 +1,4 @@
+#main_content_wrap #main_content > ul {
+  display: flex;
+  border: 1px solid red;
+}
