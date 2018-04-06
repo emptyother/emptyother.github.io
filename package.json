@@ -17,7 +17,7 @@
 		"url": "https://github.com/emptyother/emptyother.github.io/issues"
 	},
 	"homepage": "https://github.com/emptyother/emptyother.github.io#readme",
-	"dependencies": {
+	"dev-dependencies": {
 		"less": "^3.0.1"
 	}
 }
