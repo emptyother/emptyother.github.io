@@ -2,7 +2,11 @@
 	#main_content {
 		> ul {
 			display: flex;
-			border: 1px solid red;
+			justify-content: space-evenly;
+			list-style-type: none;
+			> li:nth-child(even) {
+				background-color: #ccc;
+			}
 		}
 	}
 }

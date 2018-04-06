@@ -1,4 +1,8 @@
 #main_content_wrap #main_content > ul {
   display: flex;
-  border: 1px solid red;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#main_content_wrap #main_content > ul > li:nth-child(even) {
+  background-color: #ccc;
 }
