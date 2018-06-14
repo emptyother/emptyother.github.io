@@ -1,4 +1,3 @@
-remote-theme: mmistakes/jekyll-theme-basically-basic
 title: Only Human
 tagline: Tagline
 permalink: pretty
@@ -6,5 +5,4 @@ author:
   name: Tom A. Vibeto
   email: post@onlyhuman.dk
   github: emptyother
-
-theme: jekyll-theme-minimal
+remote-theme: mmistakes/jekyll-theme-basically-basic
