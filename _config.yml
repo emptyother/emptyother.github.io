@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
+remote-theme: mkchoi212/paper-jekyll-theme
 title: Only Human
 tagline: Tagline
 permalink: pretty
