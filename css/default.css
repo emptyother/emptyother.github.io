@@ -1,8 +1,0 @@
-#main_content_wrap #main_content > ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-#main_content_wrap #main_content > ul > li:nth-child(odd) {
-  background-color: #ccc;
-}
