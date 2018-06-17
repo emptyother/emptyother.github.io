@@ -1,8 +1,9 @@
-remote-theme: "mmistakes/jekyll-theme-basically-basic"
 title: Only Human
-tagline: Tagline
-permalink: pretty
-author:
-  name: Tom A. Vibeto
-  email: post@onlyhuman.dk
-  github: emptyother
+email: post@onlyhuman.dk
+description: >- 
+    Some description of the site...
+baseurl: ""
+url: ""
+theme: "minima"
+twitter_username: emptyother
+github_username: emptyother

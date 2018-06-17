@@ -146,12 +146,6 @@ GEM
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme-basically-basic (1.4.0)
-      jekyll (~> 3.3)
-      jekyll-feed (~> 0.8)
-      jekyll-paginate (~> 1.1)
-      jekyll-seo-tag (~> 2.4, >= 2.3)
-      jekyll-sitemap (~> 1.0)
     jekyll-theme-cayman (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
@@ -212,7 +206,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
     multipart-post (2.0.0)
-    nokogiri (1.8.2-x64-mingw32)
+    nokogiri (1.8.3-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     octokit (4.9.0)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -250,7 +244,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-theme-basically-basic
+  minima (~> 2.0)
 
 BUNDLED WITH
    1.16.2

@@ -1,5 +1,5 @@
 ---
-title: Tom André Vibeto
+layout: home
 ---
 
 ## Hi, I'm Tom!

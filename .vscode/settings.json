@@ -1,7 +1,3 @@
 {
-	"editor.detectIndentation": false,
-	"editor.insertSpaces": false,
-	"files.exclude": {
-		"css/default.css": true
-	}
+
 }
