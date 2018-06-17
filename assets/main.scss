@@ -3,6 +3,14 @@
 
 @import "minima";
 
+$primaryColor: #045204;
+$primaryColorFont: white;
+
+$shadowColorOnLight: lightgray;
+$shadowColor: black;
+$dotColor: gray;
+$linkItemBackground: rgba(0, 0, 0, 0.2);
+
 ul, ol {
   margin-left: 0;
 }
@@ -16,7 +24,53 @@ p.rss-subscribe {
   text-align: center;
 }
 
-footer {
+@media screen and (max-width: 600px) { 
+  .site-nav input:checked ~ label[for="nav-trigger"] {
+    outline-offset: 0;
+    outline: 1px dotted $dotColor;
+  }
+  .site-nav input:checked ~ div.trigger {
+    box-shadow: 0 4px 7px $shadowColor;
+    background-color: $primaryColor;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    
+    > a.page-link {
+      background-color: $linkItemBackground;
+      margin: 5px 20px;
+      padding: 5px 0;
+    }
+  }  
+  .site-nav {
+    left: 9px;
+  }
+}
+header.site-header {
+  background-color: $primaryColor;
+  color: $primaryColorFont;
+  .wrapper {
+    a {
+      color: inherit;
+      z-index: 2;
+      position: relative;
+    }
+  }
+  nav.site-nav {
+    background-color: transparent;
+    border: 0 none;
+    .menu-icon > svg {
+      fill: $primaryColorFont;
+    }
+  }
+}
+
+footer.site-footer {
+  background-color: $primaryColor;
+  color: $primaryColorFont;
+  
   > .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +89,10 @@ footer {
   font-size: 0.8em;
   a {
     .username {
-      color: gray;
+      color: $primaryColorFont;
+    }
+    .svg-icon {
+      fill: $primaryColorFont;
     }
   }
 }
@@ -68,7 +125,7 @@ footer {
       padding: 0 0.5em;
       padding-bottom: 1em;
       min-width: 12em;
-      box-shadow: 0 2px 5px lightgray;
+      box-shadow: 0 2px 5px $shadowColorOnLight;
       font-weight: bold;
       > ul {
         text-align: left;
@@ -84,7 +141,7 @@ footer {
 .blog {
   > .post-list {
     > li {
-      box-shadow: 0 2px 5px lightgray;
+      box-shadow: 0 2px 5px $shadowColorOnLight;
       margin: 0.5em 0;
       padding: 0 0.5em;
       padding-bottom: 1em;
