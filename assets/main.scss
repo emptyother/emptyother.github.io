@@ -3,17 +3,13 @@
 
 @import "minima";
 
-$primaryColor: #045204;
+$primaryColor: #2c472c;
 $primaryColorFont: white;
 
 $shadowColorOnLight: lightgray;
 $shadowColor: black;
 $dotColor: gray;
 $linkItemBackground: rgba(0, 0, 0, 0.2);
-
-ul, ol {
-  margin-left: 0;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
