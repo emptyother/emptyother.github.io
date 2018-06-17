@@ -1,5 +1,5 @@
 ---
-title: Only Human
+title: Blog
 ---
 
 Posts: 
@@ -17,5 +17,5 @@ Posts:
 
 Categories:
 {% for post in site.categories[page.category] %}
-      * [{{ post.title }}]({{ post.url | absolute_url }})
+    * [{{ post.title }}]({{ post.url | absolute_url }})
 {% endfor %}
