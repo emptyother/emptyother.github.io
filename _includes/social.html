@@ -52,6 +52,17 @@
       </a>
     </li>
   {%- endif -%}
+  {%- if site.reddit_username -%}
+    <li>
+      <a href="https://www.reddit.com/user/{{ site.reddit_username| cgi_escape | escape }}">
+        <svg class="svg-icon">
+          <use xlink:href="{{ '/assets/reddit-badge.svg#reddit' | relative_url }}"></use>
+        </svg>
+        <!-- <span class="username">{{ site.reddit_username| escape }}</span> -->
+        <span class="username">Reddit</span>
+      </a>
+    </li>
+  {%- endif -%}
   {%- if site.instagram_username -%}
     <li>
       <a href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}">

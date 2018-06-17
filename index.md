@@ -6,12 +6,12 @@ title: ""
 ## Hi, I'm Tom!
 
 * Developer
-	- C#/.NET.
-	- Typescript/Javascript.
+  - C# / .NET
+  - Typescript / Javascript
+  - ...and various other technologies
 * Classic nerd
-	- Book-nerd and avid reader of everything.
-	- D&D gamer.
-* Norwegian
-	- From Valle in [Bamble](https://en.wikipedia.org/wiki/Bamble), [Telemark](https://en.wikipedia.org/wiki/Telemark).
-	- Currently living in Oslo.
+  - Book-nerd
+  - Sci-fi enthusiast
+  - D&D gamer
+  
 
