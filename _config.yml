@@ -1,9 +1,12 @@
 title: Only Human
 email: post@onlyhuman.dk
-description: >- 
-    Some description of the site...
+description: ""
 baseurl: ""
 url: ""
 theme: "minima"
+permalink: pretty
+author: Tom A. Vibeto
 twitter_username: emptyother
 github_username: emptyother
+linkedin_username: emptyother
+devto_username: emptyother

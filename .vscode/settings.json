@@ -1,5 +1,7 @@
 {
-"files.exclude": {
-	"_site": true
-}
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "_site": true
+  }
 }

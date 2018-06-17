@@ -15,9 +15,3 @@ title: ""
 	- From Valle in [Bamble](https://en.wikipedia.org/wiki/Bamble), [Telemark](https://en.wikipedia.org/wiki/Telemark).
 	- Currently living in Oslo.
 
-## Links
-
-* [Personal page](https://www.onlyhuman.dk)
-* [GitHub](https://github.com/emptyother)
-* [Dev.to](https//dev.to/emptyother)
-* [Twitter](https://twitter.com/)
