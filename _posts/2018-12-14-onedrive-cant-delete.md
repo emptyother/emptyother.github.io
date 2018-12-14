@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Can't delete Onedrive folders
 tags: OneDrive Powershell
 category: Troubleshooting
