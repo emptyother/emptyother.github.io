@@ -7,6 +7,8 @@ layout: default
     <div class="post-categories">
       {% if post %}
       {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
       <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
@@ -26,7 +28,7 @@ layout: default
     {{ content }}
   </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  {% assign tags = page.tags | split:&nbsp; %}
+  {% assign tags = page.tags %}
   <ul>
     {% for tag in tags %}
     <li>{{ tag }}</li>
