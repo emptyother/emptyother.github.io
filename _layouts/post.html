@@ -27,11 +27,8 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  {% assign tags = page.tags %}
-  <ul>
-    {% for tag in tags %}
-    <li>{{ tag }}</li>
-    {% endfor %}
-  </ul>
+  {% for tag in page.tags %}
+  {% capture tag_name %}{{ tag }}{% endcapture %}
+  <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
 </article>
