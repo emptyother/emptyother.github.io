@@ -1,9 +1,5 @@
 title: Only Human
-email: post@onlyhuman.dk
-description: ""
-baseurl: "/"
-url: ""
-theme: "minima"
+theme: 'minima'
 permalink: pretty
 author: Tom A. Vibeto
 twitter_username: emptyother
@@ -13,5 +9,5 @@ devto_username: emptyother
 facebook_username: emptyother
 reddit_username: empty_other
 show_excerpts: true
-header_pages: 
+header_pages:
   - blog.md
