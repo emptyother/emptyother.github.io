@@ -10,4 +10,4 @@ facebook_username: emptyother
 reddit_username: empty_other
 show_excerpts: true
 header_pages:
-  - blog.md
+  - blog.html
