@@ -150,3 +150,25 @@ footer.site-footer {
 		}
 	}
 }
+
+.tags-expo-section, categories-expo-section {
+	> ul {
+		> li {
+			list-style-type: ' - ';
+			.title {
+				font-weight: 500;
+			}
+			.post-date {
+				opacity: 0.75;
+				font-size: 0.8em;
+				font-weight: normal;
+			}
+			.post-date::before {
+				content: ' (';
+			}
+			.post-date::after {
+				content: ')';
+			}
+		}
+	}
+}

@@ -3,30 +3,21 @@ layout: page
 title: Categories
 ---
 
+<h1>Posts sorted by categories</h1>
 <div class="categories-expo">
-	<div class="categories-expo-list">
-		{% for category in site.categories %}
-		<a href="#{{ category[0] | slugify }}" class="post-category">
-			{{ category[0] }}
-		</a>
-		{% endfor %}
-	</div>
-	<hr />
 	<div class="categories-expo-section">
 		{% for category in site.categories %}
-		<h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
-		<ul class="categories-expo-posts">
-			{% for post in category[1] %}
-			<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-				<li>
-					{{ post.title }}
-					<small class="post-date">
-						{{ post.date | date_to_string }}
-					</small>
-				</li>
-			</a>
-			{% endfor %}
-		</ul>
+			<h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
+			<ul class="categories-expo-posts">
+				{% for post in category[1] %}
+					<li>
+						<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+							<span class="title">{{ post.title }}</span>
+							<small class="post-date">{{ post.date | date_to_string }}</small>
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
 		{% endfor %}
 	</div>
 </div>
