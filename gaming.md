@@ -1,5 +1,5 @@
 ---
-title: "RPG"
+title: "Gaming"
 ---
 
 ## RPG systems I've played
