@@ -5,7 +5,7 @@ tags: [OneDrive, Powershell]
 category: Troubleshooting
 ---
 
-Can't delete _some_ OneDrive folders. I listed them up in Powershell and found that the ones I couldn't delete had the "ReparsePoint" attribute. Seems that Windows 10 version 1809 (the "download on demand" option) turned all new OneDrive folders into reparsepoints that couldn't be deleted. 
+Can't delete _some_ OneDrive folders. I listed them up in Powershell and found that the ones I couldn't delete had the "ReparsePoint" attribute. Seems that Windows 10 version 1809 (the "download on demand" option) turned all new OneDrive folders into reparsepoints that couldn't be deleted.
 
 ## Solution
 
