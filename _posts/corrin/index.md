@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Corrin the Halfling"
 date: 2010-03-21 15:40:04 +0100
 category: Fiction

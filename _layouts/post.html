@@ -2,54 +2,45 @@
 layout: default
 ---
 
-<article
-	class="post h-entry"
-	itemscope
-	itemtype="http://schema.org/BlogPosting"
->
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" >
 	<header class="post-header">
 		<h1 class="post-title p-name" itemprop="name headline">
 			{{ page.title | escape }}
 		</h1>
 		<div class="post-categories">
-			{% if post %} {% assign categories = post.categories %} {% else %}
-			{% assign categories = page.categories %} {% endif %} {% for
-			category in categories %}
-			<a href="{{ site.baseurl }}/categories/#{{ category | slugize }}">{{
-				category
-			}}</a>
-			{% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+			{% if post %} 
+				{% assign categories = post.categories %} 
+			{% else %}
+				{% assign categories = page.categories %} 
+			{% endif %} 
+			{% for category in categories %}
+				<a href="{{ site.baseurl }}/categories/#{{ category | slugize }}">
+					{{ category }}
+				</a>
+				{% unless forloop.last %}
+					&nbsp;
+				{% endunless %} 
+			{% endfor %}
 		</div>
 		<p class="post-meta">
-			<time
-				class="dt-published"
-				datetime="{{ page.date | date_to_xmlschema }}"
-				itemprop="datePublished"
-			>
-				{%- assign date_format = site.minima.date_format | default: "%b
-				%-d, %Y" -%}
+			<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" >
+				{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 				{{ page.date | date: date_format }}
 			</time>
-			{%- if page.author -%} •
-			<span
-				itemprop="author"
-				itemscope
-				itemtype="http://schema.org/Person"
-				><span class="p-author h-card" itemprop="name">{{
-					page.author
-				}}</span></span
-			>
-			{%- endif -%}
 		</p>
 	</header>
 	<div class="post-content e-content" itemprop="articleBody">
 		{{ content }}
 	</div>
-	{% for tag in page.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}
-	<a href="{{ site.baseurl }}/tags/#{{ tag_name }}"
-		><code class="highligher-rouge"
-			><nobr>{{ tag_name }}</nobr></code
-		>&nbsp;</a
-	>
+	{% for tag in page.tags %} 
+		{% capture tag_name %}
+			{{ tag }}
+		{% endcapture %}
+		<a href="{{ site.baseurl }}/tags/#{{ tag_name }}" >
+			<code class="highligher-rouge" >
+				<nobr>{{ tag_name }}</nobr>
+			</code >
+			&nbsp;
+		</a >
 	{% endfor %}
 </article>

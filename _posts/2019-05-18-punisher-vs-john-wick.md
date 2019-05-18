@@ -2,6 +2,7 @@
 layout: post
 title: Punisher vs. John Wick
 category: Fiction
+date: 2019-05-18 16:25 +0200
 ---
 
 Just a quick fictional snippet on how I think a John Wick vs. The Punisher fight is gonna go. Also posted as a YouTube comment.

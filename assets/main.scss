@@ -163,15 +163,15 @@ categories-expo-section {
 			.title {
 				font-weight: 500;
 			}
-			.post-date {
+			time.post-date {
 				opacity: 0.75;
 				font-size: 0.8em;
 				font-weight: normal;
 			}
-			.post-date::before {
+			time.post-date::before {
 				content: ' (';
 			}
-			.post-date::after {
+			time.post-date::after {
 				content: ')';
 			}
 		}
