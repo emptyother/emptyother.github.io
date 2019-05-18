@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: home
 title: ""
 ---
-<div class="home">
 
 ## Hi, I'm Tom!
 
@@ -14,5 +13,5 @@ title: ""
   - Book-nerd
   - Sci-fi enthusiast
   - D&D gamer
+  
 
-</div>
