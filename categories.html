@@ -11,7 +11,7 @@ title: Categories
 			<ul class="categories-expo-posts">
 				{% for post in category[1] %}
 					<li>
-						<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+						<a class="item-title" href="{{ site.baseurl }}{{ post.url }}">
 							<span class="title">{{ post.title }}</span>
 							<small class="post-date">{{ post.date | date_to_string }}</small>
 						</a>
