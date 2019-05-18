@@ -1,6 +1,9 @@
 {
 	"files.exclude": {
-		"_site": true
+		"_site": true,
+		"*-cache": true,
+		"*.lock": true,
+		"CNAME": true
 	},
 	"files.associations": {
 		"*.html": "liquid"
