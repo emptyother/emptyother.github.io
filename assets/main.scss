@@ -21,10 +21,6 @@ h6 {
 	margin-bottom: 0.15em;
 }
 
-h1 {
-	text-transform: uppercase;
-}
-
 p.rss-subscribe {
 	text-align: center;
 }
@@ -176,4 +172,14 @@ categories-expo-section {
 			}
 		}
 	}
+}
+
+.tag-list {
+	.tag-label {
+		font-weight: bold;
+	}
+}
+
+.post-categories {
+	display: inline;
 }

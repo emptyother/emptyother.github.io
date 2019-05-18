@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"neilding.language-liquid",
+		"osteele.jekyll",
+		"redhat.vscode-yaml",
+	]
+}
