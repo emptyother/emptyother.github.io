@@ -7,5 +7,20 @@
 	},
 	"files.associations": {
 		"*.html": "liquid"
-	}
+	},
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#406640",
+		"activityBar.foreground": "#e7e7e7",
+		"activityBar.inactiveForeground": "#e7e7e799",
+		"activityBarBadge.background": "#25253b",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"titleBar.activeBackground": "#2c472c",
+		"titleBar.inactiveBackground": "#2c472c99",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveForeground": "#e7e7e799",
+		"statusBar.background": "#2c472c",
+		"statusBarItem.hoverBackground": "#406640",
+		"statusBar.foreground": "#e7e7e7"
+	},
+	"peacock.color": "#2c472c"
 }
