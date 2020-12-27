@@ -1,1 +1,0 @@
-![Live](img/l1ive_everry_minute.jpg)
