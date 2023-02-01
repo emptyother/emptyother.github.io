@@ -8,6 +8,7 @@ linkedin_username: emptyother
 devto_username: emptyother
 facebook_username: emptyother
 reddit_username: empty_other
+mastodon_username: @emptyother@oslo.town
 show_excerpts: true
 header_pages:
   - blog.html
