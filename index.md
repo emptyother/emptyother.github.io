@@ -6,7 +6,7 @@ layout: default
 	<h2>Hi, I’m Tom!</h2>
 	<ul>
 		<li>
-			Developer
+			<div>Developer</div>
 			<ul>
 				<li>C# / .NET</li>
 				<li>Typescript / Javascript</li>
@@ -14,11 +14,15 @@ layout: default
 			</ul>
 		</li>
 		<li>
-			Classic nerd
+			<div>Classic nerd</div>
 			<ul>
-				<li>Book-nerd</li>
+				<li>
+					<a rel="me" href="https://goodreads.com/emptyother" target="_blank">Book-nerd</a>
+				</li>
 				<li>Sci-fi enthusiast</li>
-				<li>D&amp;D gamer</li>
+				<li>
+					<a href="/gaming/">Pen & Paper roleplaying gamer</a>
+				</li>
 			</ul>
 		</li>
 	</ul>
