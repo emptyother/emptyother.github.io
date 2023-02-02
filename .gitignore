@@ -1,6 +1,7 @@
-node_modules/
-_site/
-.sass-cache/
-.jekyll-cache/
+_site
+.jekyll-cache
 .jekyll-metadata
+.sass-cache
+node_modules
+vendor
 Gemfile.lock

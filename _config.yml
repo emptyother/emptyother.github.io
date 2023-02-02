@@ -1,7 +1,16 @@
 title: Only Human
-theme: minima
-permalink: pretty
 author: Tom A. Vibeto
+email: tom@onlyhuman.dk
+baseurl: ""
+url: onlyhuman.dk
+description: >-
+  Personal page of emptyother.
+
+theme: minima
+plugins:
+  - jekyll-feed
+  
+permalink: pretty
 github_username: emptyother
 linkedin_username: emptyother
 facebook_username: emptyother
