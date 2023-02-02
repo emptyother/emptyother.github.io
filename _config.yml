@@ -18,4 +18,4 @@ reddit_username: empty_other
 mastodon_url: https://oslo.town/@emptyother
 show_excerpts: true
 header_pages:
-  - blog.html
+  - blog.md

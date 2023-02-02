@@ -8,8 +8,10 @@ Personal site.
 - A Gemfile is like a package.json, but using Bundler.
 - `bundle install` to install all packages listed in the `Gemfile`.
 - `bundle add` to add a new package to `Gemfile`.
-- `bundle exec jekyll serve` to run a Jekyll server on localhost. It will be available on localhost even when running WSL.
-- `code .` inside a WSL terminal to open the project in Windows VSCode using the `Remote Development` extension.
+- `bundle exec jekyll serve` to run a Jekyll server on localhost. It will be
+  available on localhost even when running WSL.
+- `code .` inside a WSL terminal to open the project in Windows VSCode using the
+  `Remote Development` extension.
 
 ## Useful links
 

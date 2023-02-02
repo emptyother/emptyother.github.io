@@ -36,8 +36,9 @@ I have no idea what I just did, but it worked.
 
 ## Sources
 
-* [microsofts documentation for this command][1]
-* [Source answer from stackoverflow][2]
+- [microsofts documentation for this command][1]
+- [Source answer from stackoverflow][2]
 
-[1]: https://docs.microsoft.com/nb-no/windows/win32/http/add-iplisten?redirectedfrom=MSDN
+[1]:
+	https://docs.microsoft.com/nb-no/windows/win32/http/add-iplisten?redirectedfrom=MSDN
 [2]: https://stackoverflow.com/questions/34543443/cant-access-127-0-0-1
